@@ -1,0 +1,12 @@
+Lista de comando para Git-Github
+git init: Inicializa un nuevo repositorio de git ademas de empezar a dar seguimiento al proyecto.
+git add : Mueve los cambios del working area al staging area.
+    git add . mueve todos los archivos
+    git add <archivo>: mueve el archivo espeficado
+git commit: crea una confirmacion de los cambios de los archivos en el historial de versiones.
+git status: verifica si existen archivos montados o sin montar.
+git pull: obtiene una copia del repositorio remoto y la combina con el repositorio local.
+git push: envia la rama al repositorio remoto.
+git branch <nombre>  : crea una nueva rama espeficando el nombre
+git checkout <nombre_rama>: sirve para ubicarnos en la rama especifica
+git push origin <nombre_rama>: envia la rama al repositorio remoto 
